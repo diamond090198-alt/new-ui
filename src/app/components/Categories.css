@@ -37,7 +37,7 @@
 }
 .categories__tab:hover { color: var(--color-coffee); }
 .categories__tab--active {
-  color: var(--color-coffee);
+  background-color: var(--color-coffee-10);
   border-bottom-color: var(--color-coffee);
 }
 
