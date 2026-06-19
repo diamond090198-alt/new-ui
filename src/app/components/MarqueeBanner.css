@@ -1,0 +1,19 @@
+.marquee {
+  background: var(--color-coffee);
+  overflow: hidden;
+  padding: 12px 0;
+}
+.marquee__track {
+  display: flex;
+  gap: 32px;
+  white-space: nowrap;
+}
+.marquee__item {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+  flex-shrink: 0;
+}
